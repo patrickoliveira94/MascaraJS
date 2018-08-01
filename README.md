@@ -1,8 +1,8 @@
 # Máscara para Campos Numéricos
-Mascara em JavaScript para campos de formulários numéricos, facilmente configurável. O arquivo **mascara.mim.js** tem menos de 1 kb!
+Máscaras em JavaScript para campos de formulários numéricos, facilmente configurável. O arquivo **mascara.mim.js** tem menos de 1 kb!
 
 ## Como usar em meu projeto?
-* Basta fazer o donwload ou clone deste repositório para o seu projeto.
+* Basta fazer o download ou clone deste repositório para o seu projeto.
 * Inclua o arquivo **mascara.mim.js** no seu HTML
 
 ```
@@ -28,15 +28,15 @@ onkeyup="mascara('###.###.###-##',this,event,true)"
 <input class="form-control" type="text" id="cpf" placeholder="###.###.###-##" onkeyup="mascara('###.###.###-##',this,event,true)" maxlength="14">
 ```
 
-## Parametros da função mascara
-A função máscara tem 4 parametros.
+## Parâmetros da função mascara
+A função máscara tem 4 parâmetros.
 * 1º - o Modelo da máscara utilizado no input, como explicado acima, informe sempre a máscara entre aspas simples ou aspas duplas, **parametro obrigatório**
-* 2º - não mude, sempre deve ser **this**, **parametro obrigatório**
-* 3º - não mude, sempre deve ser **event**, **parametro obrigatório**
-* 4º - este parametro quando informado com o valor **true** a função validará o números informados alterando a cor do input enquanto o usuário digita os números e quando o input é completamente preenchido, quando o valor informado for **false** ou simplesmente não informado nenhum valor, a cor do input não será alterada, **parametro opcional**
+* 2º - não mude, sempre deve ser **this**, **parâmetro obrigatório**
+* 3º - não mude, sempre deve ser **event**, **parâmetro obrigatório**
+* 4º - este parâmetro quando informado com o valor **true** a função validará o números informados alterando a cor do input enquanto o usuário digita os números e quando o input é completamente preenchido, quando o valor informado for **false** ou simplesmente não informado nenhum valor, a cor do input não será alterada, **parametro opcional**
 
 ### Outros Exemplos
-Para ver exemplos reais, abra o arquivo **index.html** após o donwload/clone.
+Para ver exemplos reais, abra o arquivo **index.html** após o download/clone.
 Caso esteja usando Internet Explorer acessando o arquivo no seu computador local, lembre-se de permitir a execução do script no aviso que aparecerá ao abrir a página.
 
 ### Como alterar as cores de validação?
