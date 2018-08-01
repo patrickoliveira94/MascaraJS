@@ -1,6 +1,8 @@
 # Máscara para Campos Numéricos
 Máscaras em JavaScript para campos de formulários numéricos, facilmente configurável. O arquivo **mascara.mim.js** tem menos de 1 kb!
 
+[Demo](https://patrickoliveira94.github.io/MascaraJS/)
+
 ## Como usar em meu projeto?
 * Basta fazer o download ou clone deste repositório para o seu projeto.
 * Inclua o arquivo **mascara.mim.js** no seu HTML
